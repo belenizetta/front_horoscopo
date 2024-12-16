@@ -1,0 +1,57 @@
+.pCantidad{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Estilo de la tabla */
+.estadisticasTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Encabezado de la tabla */
+  .estadisticasThead {
+    background-color: #0e50a1;
+    color: white;
+  }
+  
+  .estadisticasTh {
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  /* Celdas de la tabla */
+  .estadisticasTd {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo cuando pasas el mouse sobre una fila */
+  .estadisticas-table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Estilo de la primera columna (para hacerla más prominente) */
+  .estadisticas-table td:first-child {
+    font-weight: 600;
+    color: #0e50a1;
+  }
+  
+  /* Agregar un borde a la tabla */
+  .estadisticas-table {
+    border: 1px solid #ddd;
+  }
+  
+  /* Añadir un borde inferior al encabezado */
+  .estadisticas-table thead tr {
+    border-bottom: 2px solid #0e50a1;
+  }

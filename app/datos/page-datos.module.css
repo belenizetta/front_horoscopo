@@ -1,0 +1,60 @@
+.divDatos {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #406FB3;
+}
+
+.divInput {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    font-weight: bold;
+    white-space: nowrap;
+    display: flex;
+    align-items: flex-end;
+}
+
+.labelNombre {
+    width: 30%;
+}
+
+.labelFecha{
+    width: 50%;
+}
+
+.input {
+    flex: 1; /* Toma el espacio restante */
+    border: none;
+    border-bottom: 1px solid #406FB3; /* Línea inferior */
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 0;
+    color: #333;
+}
+.divButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 450px;
+}
+
+.button {
+    margin-top: 100px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+.buttonAzul {
+    background-color: #0466AD;
+    margin-right: 70px;
+}
+
+.buttonNaranja {
+    background-color: #fe6d1a;
+}
